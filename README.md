@@ -1,13 +1,9 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+## Usage
+```bash
+npx hardhat compile
+npx hardhat run scripts/deploy.js --network swisstronik
 ```
+## Deployed address
+`Swisstronik contract deployed to 0xFCd9a9E8966067739806152662a0E449d8B7aD2d`
+
+*Update private key in hardhat.config.js
